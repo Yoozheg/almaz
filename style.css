@@ -1,0 +1,10 @@
+@charset "utf-8";
+*{padding:0;margin:0}
+body{color:#000;background:#fff url(images/background.png);font:16px "Trebuchet MS",Calibri,sans-serif}
+header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
+main{margin:0 auto;width:960px;position:relative;clear:both;padding:0}
+
+header{font-family:"Trebuchet MS";color:#315231;}
+header main{text-align: right;}
+header h2{font-size:36px;}
+header h3{font-size:18px;font-weight: bold;margin-top:-10px;}
