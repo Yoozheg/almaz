@@ -3,6 +3,8 @@
 body{color:#000;background:#fff url(images/background.png);font:16px "Trebuchet MS",Calibri,sans-serif}
 header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 main{margin:0 auto;width:960px;position:relative;clear:both;padding:0}
+.right{float:right;}
+.left{float:left;}
 
 header{font-family:"Trebuchet MS";color:#315231;}
 header main{text-align: right; background: url('images/almaz.png') center left no-repeat; vertical-align: center; height: 70px;}
@@ -15,4 +17,10 @@ nav{}
 
 #workspace{}
 
-footer{}
+footer{background-color:#525252; text-align: center; padding-top: 0;}
+footer main{background: url('images/almaz_footer.png') center center no-repeat;}
+footer p{font-size:14px;color:#b5bdad;}
+footer p.copyright{padding-top: 80px;}
+footer p.right{text-align:right; padding-top:20px;}
+footer ol{list-style:none; text-align:left; clear: both;padding-top:15px;}
+footer a{font-size:14px;color:#b5bdad;}
