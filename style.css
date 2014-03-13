@@ -12,15 +12,19 @@ header h2{font-size:36px;}
 header h3{font-size:18px;font-weight: bold;margin-top:-10px;}
 
 nav{}
+nav main div{display:table-cell;background:#d1d1d1; height:60px;width:120px;border-left:solid 1px white;border-right:solid 1px white;text-align:center;vertical-align:center;}
+nav main div a{margin:auto 0;text-decoration:none;color:#315231;font-size:16px;font-weight:bold;}
+nav main a:first-child{border-left:none;}
+nav main a:last-child{border-right:none;}
 
 #header{}
 
 #workspace{}
 
 footer{background-color:#525252; text-align: center; padding-top: 0;}
-footer main{background: url('images/almaz_footer.png') center center no-repeat;}
+footer main{background: url('images/almaz_footer.png') center center no-repeat; text-align:left;}
 footer p{font-size:14px;color:#b5bdad;}
-footer p.copyright{padding-top: 80px;}
-footer p.right{text-align:right; padding-top:20px;}
-footer ol{list-style:none; text-align:left; clear: both;padding-top:15px;}
+footer p.copyright{padding-top: 0;display:inline-block;}
+footer p.right{text-align:right; padding-top:20px;display:inline-block;}
+footer ol{list-style:none; text-align:left; clear: both;padding-top:15px;display:inline-block;}
 footer a{font-size:14px;color:#b5bdad;}
