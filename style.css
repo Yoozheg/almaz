@@ -1,30 +1,36 @@
 @charset "utf-8";
 *{padding:0;margin:0}
-body{color:#000;background:#fff url(images/background.png);font:16px "Trebuchet MS",Calibri,sans-serif}
+body{color:#000;background:#fff);font:16px "Trebuchet MS",Calibri,sans-serif}
 header,main,footer,nav,aside,section,article,figure,figcaption{display:block}
 main{margin:0 auto;width:960px;position:relative;clear:both;padding:0}
 .right{float:right;}
 .left{float:left;}
 
 header{font-family:"Trebuchet MS";color:#315231;}
-header main{text-align: right; background: url('images/almaz.png') center left no-repeat; vertical-align: center; height: 70px;}
+header main{text-align: right;background:url('img/almaz.png') center left no-repeat;vertical-align:center;height:70px;}
 header h2{font-size:36px;}
 header h3{font-size:18px;font-weight: bold;margin-top:-10px;}
 
 nav{}
-nav main div{display:table-cell;background:#d1d1d1; height:60px;width:120px;border-left:solid 1px white;border-right:solid 1px white;text-align:center;vertical-align:center;}
-nav main div a{margin:auto 0;text-decoration:none;color:#315231;font-size:16px;font-weight:bold;}
-nav main a:first-child{border-left:none;}
-nav main a:last-child{border-right:none;}
+nav table{height:60px;border-spacing:0;}
+nav td{background:#d1d1d1; height:60px;width:120px;border-left:solid 1px white;border-right:solid 1px #b5bdad;text-align:center;vertical-align:center;}
+nav a{text-decoration:none;color:#315231;font-size:16px;font-weight:bold;}
+nav td:first-child{border-left:none;}
 
 #header{}
+#header main{background:url('img/hat.jpg') center top no-repeat;height:200px;}
+#header h2{display:block;position:absolute;left:10px;bottom:30px;height:60;width:400;color:#d5d5d5;background:rgba(0,0,0,0.5);text-transform:uppercase;font:bold 36px "Trebuchet MS";padding: 10px 10px;}
 
-#workspace{}
+#content{background:white;}
+#content .leftMenu{float:left;width:200px;background:white;text-align:center;padding-top:20px;}
+#content .leftMenu a{display:block;width:170px;margin: 10px auto;padding:10px;text-decoration:none;color:#315231;background:#d2d2d2;font:bold 16px "Trebuchet MS";}
+#content .leftMenu a:hover{color:#d2d2d2;background:#315231;}
+#content .contentRight{clear:both;width:660px;}
 
-footer{background-color:#525252; text-align: center; padding-top: 0;}
-footer main{background: url('images/almaz_footer.png') center center no-repeat; text-align:left;}
+footer{background-color:#525252;text-align:center;padding-top:0;}
+footer main{background: url('img/almaz_footer.png') center center no-repeat;text-align:left;}
 footer p{font-size:14px;color:#b5bdad;}
-footer p.copyright{padding-top: 0;display:inline-block;}
-footer p.right{text-align:right; padding-top:20px;display:inline-block;}
-footer ol{list-style:none; text-align:left; clear: both;padding-top:15px;display:inline-block;}
+footer p.copyright{padding-top:0;display:inline-block;}
+footer p.right{text-align:right;padding-top:20px;display:inline-block;}
+footer ol{list-style:none;text-align:left;clear:both;padding-top:15px;display:inline-block;}
 footer a{font-size:14px;color:#b5bdad;}
